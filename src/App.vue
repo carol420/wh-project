@@ -7,6 +7,7 @@
 
 <script>
 import _ from 'underscore'
+import iview from 'iview'
 export default {
   name: 'App'
 }

@@ -1,21 +1,24 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
+import MainView from '@/components/main-view/MainView'
 import EgCom from '@/components/EgCom.vue'
 import Chart1 from '@/components/chart1/chart1.vue'
 import TryJsonp from '@/components/tryJsonp/tryJsonp.vue'
+import iview from 'iview'
+
 
 
 import _ from 'underscore'
 
 Vue.use(Router)
+// Vue.use(iview)
 
 export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      name: 'MainView',
+      component: MainView
     },
     {
       path: '/eg1',

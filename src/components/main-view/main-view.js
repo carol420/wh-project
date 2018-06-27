@@ -1,8 +1,9 @@
+import TryIview from '../try-iview/tryIvie.vue'
 export default{
 	name:'index',
 	data(){
 		return{
-
+			propData:['1','2']
 		}
 	},
 	create(){
@@ -13,5 +14,8 @@ export default{
 			console.log(this)
 			this.$router.push('/tryJsonp')
 		}
+	},
+	components:{
+		TryIview
 	}
 }
