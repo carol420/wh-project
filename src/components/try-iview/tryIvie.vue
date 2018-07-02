@@ -1,6 +1,6 @@
 <template>
 	<div>
-		hhhhhhh{{propData}}
+		lalala{{propData}}
 	</div>
 </template>
 <script src='./try-iview.js'></script>
